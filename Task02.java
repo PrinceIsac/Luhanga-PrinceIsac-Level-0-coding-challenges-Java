@@ -4,9 +4,8 @@ public class Task02 {
         int y = (1 + 1) * 2;
         int z = 1 + ( 1 * 2 );
         int a = 1 + 1 * 2 / 2;
-        double b = (1 + 1 * 2) /  2;
+        double b = (1 + 1 * 2 ) / 2.0;
 
         System.out.println("x = " + x + "\n"+ "y = " + y + "\n" + "z = " + z + "\n" + "a = " + a + "\n" + "b = " + b);
     }
 }
-
