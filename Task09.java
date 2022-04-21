@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class NinethTask {
+public class Task09 {
    public static void printVowels(String stringOfChars){
         char[] vowels = {'a','e','i','o','u'};
         String newString = stringOfChars.toLowerCase();
@@ -17,11 +17,10 @@ public class NinethTask {
         }
         formattedVowels = presentVowels.toString().replace("[", "").replace("]", "");
         
-        System.out.println("Common letters: " + formattedVowels);
+        System.out.println("Vowels: " + formattedVowels);
     }
 
     public static void main(String[] args) {
         printVowels("stringOfChaaars");
     }
 }
-
