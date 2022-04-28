@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class TenthTask {
+public class Task010 {
     static void commonCharacters(String input1, String input2){
         ArrayList<Character> commonChars = new ArrayList<Character>();
         String formattedString = "";
@@ -13,11 +13,13 @@ public class TenthTask {
             }
         }
         formattedString = commonChars.toString().replace("[", "").replace("]", "");
-        System.out.print("Common letters: " + formattedString);
+        System.out.print("Vowels: " + formattedString);
     }
 
     public static void main(String[] args) {
         commonCharacters("house", "computers");
+        commonCharacters("input1", "none1");
+        commonCharacters("Hey1235", "Password23");
+        commonCharacters("Hi", "Okay");
     }
 }
-

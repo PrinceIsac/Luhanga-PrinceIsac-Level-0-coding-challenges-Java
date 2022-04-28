@@ -9,6 +9,7 @@ public class Task05 {
    
    public static void main(String[] args) {
       areaOfTriangle(10, 10, 10);
+      areaOfTriangle(10, 9, 15);
+      areaOfTriangle(23, 20, 15);
    }
 }
-

@@ -22,5 +22,8 @@ public class Task09 {
 
     public static void main(String[] args) {
         printVowels("stringOfChaaars");
+        printVowels("My name is Prince");
+        printVowels("Thank you Umuzi");
     }
+    
 }

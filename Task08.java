@@ -18,5 +18,8 @@ public class Task08 {
 
     public static void main(String[] args) {
         convertNumberToTime(2041);
+        convertNumberToTime(1);
+        convertNumberToTime(16);
+        convertNumberToTime(68);
     }
 }
