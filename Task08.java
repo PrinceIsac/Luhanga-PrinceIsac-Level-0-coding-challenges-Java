@@ -12,13 +12,19 @@ public class Task08 {
         if(numberOfMinutes == 0 || numberOfMinutes > 1){
             minutes += "s";
         }
-        result += numberOfHours + hours + ", " + numberOfMinutes + minutes;
+        if(!(numberOfHours >= 1)){
+            result += numberOfMinutes + minutes;
+        }else{
+            result += numberOfHours + hours + ", " + numberOfMinutes + minutes;
+        }
+       
         System.out.println(result);
     }
 
     public static void main(String[] args) {
         convertNumberToTime(2041);
         convertNumberToTime(1);
+        convertNumberToTime(60);
         convertNumberToTime(16);
         convertNumberToTime(68);
     }
