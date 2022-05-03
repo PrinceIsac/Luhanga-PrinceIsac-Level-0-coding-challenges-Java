@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Task010 {
     static void commonCharacters(String input1, String input2){
         ArrayList<Character> commonChars = new ArrayList<Character>();
@@ -13,7 +11,7 @@ public class Task010 {
             }
         }
         formattedString = commonChars.toString().replace("[", "").replace("]", "");
-        System.out.print("Vowels: " + formattedString);
+        System.out.println("Common letters: " + formattedString);
     }
 
     public static void main(String[] args) {
