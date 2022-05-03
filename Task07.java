@@ -1,11 +1,11 @@
 public class Task07 {
-  public static double celsiusToFahrenheit(double temperature){
-        double fahrenheit = ((temperature * 9/5) + 32);
+  public static double celsiusToFahrenheit(double tempCelsius){
+        double fahrenheit = ((tempCelsius * 9/5) + 32);
         return fahrenheit;
    }
 
-  public static double fahrenheitToCelsius(double temperature){
-        double celsius = (temperature - 32) * 5/9;
+  public static double fahrenheitToCelsius(double tempFahrenheit){
+        double celsius = (tempFahrenheit - 32) * 5/9;
         return celsius;
     }
   
